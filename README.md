@@ -36,20 +36,4 @@ To run the project locally, follow these steps:
 2. **Open `index.html` in your preferred browser**:
    Simply double-click the `index.html` file or use a local server tool for a smoother development experience (e.g., Live Server extension for VS Code).
 
-## Project Structure
-
-```
-greenglow/
-│
-├── index.html        # Main HTML file
-├── styles/           
-│   └── main.css      # Tailwind CSS configuration and custom styles
-└── assets/           
-    └── images/       # Images used in the project
-```
-
-## License
-
-This project is licensed under the MIT License. Feel free to use and modify it as per your needs.
-
----
+   ---
