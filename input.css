@@ -6,3 +6,11 @@
 body {
     @apply bg-green-950 text-white font-Jost tracking-wider;
 }
+
+.nav-link {
+    @apply text-lg font-bold duration-300;
+}
+
+.nav-link:hover {
+    @apply text-yellow-500;
+}
