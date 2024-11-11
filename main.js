@@ -29,6 +29,16 @@ const scrollUp = () => {
 window.addEventListener("scroll", scrollUp)
 
 /*~~~~~~~~~~~~~~~~~CHANGE BACKROUND HEADER~~~~~~~~~~~~~~~~~~~*/
+const scrollHeader = () => {
+  const header = document.getElementById("navbar");
+
+  if (this.scrollY >= 50) {
+    header.classList.add("border-b", "border-yellow-500");
+  } else {
+    header.classList.remove("border-b", "border-yellow-500");
+  }
+};
+window.addEventListener("scroll", scrollHeader);
 
 /*~~~~~~~~~~~~~~~~~SWIPER~~~~~~~~~~~~~~~~~~~*/
 const swiper = new Swiper(".swiper", {
