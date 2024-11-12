@@ -606,6 +606,10 @@ video {
   position: relative;
 }
 
+.-bottom-1\/2{
+  bottom: -50%;
+}
+
 .-bottom-16{
   bottom: -4rem;
 }
@@ -684,14 +688,6 @@ video {
 
 .top-1\/2{
   top: 50%;
-}
-
-.bottom-1\/2{
-  bottom: 50%;
-}
-
-.-bottom-1\/2{
-  bottom: -50%;
 }
 
 .-z-10{
@@ -1275,6 +1271,13 @@ body{
 }
 
 .nav-link:hover{
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+/* active */
+
+.active{
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
 }

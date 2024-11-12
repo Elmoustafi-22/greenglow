@@ -17,7 +17,10 @@ body {
 .nav-link:hover {
     @apply text-yellow-500;
 }
-
+/* active */
+.active {
+    @apply text-yellow-500
+}
 section {
     @apply py-20 md:py-28;
 }
